@@ -14,6 +14,8 @@
 		0D8DCF5B1C8135EB00162A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8DCF591C8135EB00162A8A /* LaunchScreen.storyboard */; };
 		0D8DCF661C8135EB00162A8A /* TipSangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DCF651C8135EB00162A8A /* TipSangTests.swift */; };
 		0D8DCF711C8135EB00162A8A /* TipSangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DCF701C8135EB00162A8A /* TipSangUITests.swift */; };
+		0D8DCF7F1C814B5C00162A8A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DCF7E1C814B5C00162A8A /* SettingViewController.swift */; };
+		0D8DCF831C81562100162A8A /* LoadSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DCF821C81562100162A8A /* LoadSetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0D8DCF6C1C8135EB00162A8A /* TipSangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipSangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8DCF701C8135EB00162A8A /* TipSangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipSangUITests.swift; sourceTree = "<group>"; };
 		0D8DCF721C8135EB00162A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8DCF7E1C814B5C00162A8A /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0D8DCF821C81562100162A8A /* LoadSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				0D8DCF501C8135EB00162A8A /* AppDelegate.swift */,
 				0D8DCF521C8135EB00162A8A /* ViewController.swift */,
 				0D8DCF541C8135EB00162A8A /* Main.storyboard */,
+				0D8DCF7E1C814B5C00162A8A /* SettingViewController.swift */,
 				0D8DCF571C8135EB00162A8A /* Assets.xcassets */,
 				0D8DCF591C8135EB00162A8A /* LaunchScreen.storyboard */,
 				0D8DCF5C1C8135EB00162A8A /* Info.plist */,
+				0D8DCF821C81562100162A8A /* LoadSetting.swift */,
 			);
 			path = TipSang;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				0D8DCF531C8135EB00162A8A /* ViewController.swift in Sources */,
 				0D8DCF511C8135EB00162A8A /* AppDelegate.swift in Sources */,
+				0D8DCF831C81562100162A8A /* LoadSetting.swift in Sources */,
+				0D8DCF7F1C814B5C00162A8A /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipSang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.owncompany.TipSang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipSang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.owncompany.TipSang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
